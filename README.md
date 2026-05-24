@@ -316,4 +316,4 @@ MIT License — free to use, modify, and distribute.
 
 ## Author
 
-Built by [@spragada4](https://github.com/spragada4) as an tooling project for geospatial test engineering teams.
+Built by [@spragada4](https://github.com/spragada4) as an tooling project for geospatial teams.
