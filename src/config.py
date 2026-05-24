@@ -17,22 +17,49 @@ TOP_K_RESULTS = 5
 
 # Public docs to index
 GEOSPATIAL_URLS = [
-    # PostGIS
-    "https://postgis.net/docs/reference.html",
-    "https://postgis.net/docs/using_postgis_dbmanagement.html",
-    "https://postgis.net/docs/performance_tips.html",
+    # OGC Standards
+    "https://www.ogc.org/standard/wfs/",
+    "https://www.ogc.org/standard/wms/",
+    "https://www.ogc.org/standard/wcs/",
+    "https://www.ogc.org/standard/geopackage/",
 
-    # GDAL
-    "https://gdal.org/programs/ogr2ogr.html",
-    "https://gdal.org/programs/gdalwarp.html",
-    "https://gdal.org/programs/gdal_translate.html",
+    # EPSG / CRS
+    "https://epsg.io/about",
+    "https://spatialreference.org/",
 
-    # Shapely
-    "https://shapely.readthedocs.io/en/stable/manual.html",
+    # GeoJSON & formats
+    "https://www.rfc-editor.org/rfc/rfc7946",
+    "https://www.geopackage.org/",
 
-    # pyproj
-    "https://pyproj4.github.io/pyproj/stable/api/crs/crs.html",
+    # PostGIS deep docs
+    "https://postgis.net/docs/using_raster_dataman.html",
+    "https://postgis.net/docs/using_postgis_query.html",
+    "https://postgis.net/docs/ST_IsValidReason.html",
+    "https://postgis.net/docs/ST_MakeValid.html",
+    "https://postgis.net/docs/ST_Transform.html",
 
-    # GeoJSON spec
-    "https://geojson.org/",
+    # GDAL formats
+    "https://gdal.org/drivers/vector/index.html",
+    "https://gdal.org/drivers/raster/index.html",
+
+    # GeoServer
+    "https://docs.geoserver.org/stable/en/user/services/wfs/reference.html",
+    "https://docs.geoserver.org/stable/en/user/services/wms/reference.html",
+    "https://docs.geoserver.org/stable/en/user/services/wcs/reference.html",
+
+    # MapLibre / Leaflet
+    "https://maplibre.org/maplibre-gl-js/docs/",
+    "https://leafletjs.com/reference.html",
+
+    # Proj / pyproj
+    "https://proj.org/en/stable/operations/index.html",
+
+    # GeoPandas
+    "https://geopandas.org/en/stable/docs/user_guide.html",
+
+    # Turf.js (spatial analysis)
+    "https://turfjs.org/docs/",
+
+    # OpenLayers (map rendering)
+    "https://openlayers.org/en/latest/apidoc/",
 ]
