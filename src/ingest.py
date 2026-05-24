@@ -2,6 +2,8 @@
 
 import os
 import sys
+os.environ["USER_AGENT"] = "geospatial-qa-tool/1.0"
+
 from langchain_community.document_loaders import WebBaseLoader, PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
