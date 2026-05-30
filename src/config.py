@@ -31,7 +31,7 @@ GEOSPATIAL_URLS = [
     "https://www.rfc-editor.org/rfc/rfc7946",
     "https://www.geopackage.org/",
 
-    #PostGres deep docs
+    # PostgreSQL deep docs
     "https://www.postgresql.org/docs/current/queries.html",
     "https://www.postgresql.org/docs/current/queries-overview.html",
     "https://www.postgresql.org/docs/current/queries-table-expressions.html",
@@ -82,6 +82,97 @@ GEOSPATIAL_URLS = [
     # Turf.js (spatial analysis)
     "https://turfjs.org/docs/",
 
-    # OpenLayers (map rendering)
+    # OpenLayers
     "https://openlayers.org/en/latest/apidoc/",
+
+    # ── British National Grid / EPSG:27700 ────────────────
+    "https://spatialreference.org/ref/epsg/27700/",
+    "https://proj.org/en/stable/operations/projections/tmerc.html",
+
+    # ── PostGIS additional functions ─────────────────────
+    "https://postgis.net/docs/ST_Equals.html",
+    "https://postgis.net/docs/ST_DWithin.html",
+    "https://postgis.net/docs/ST_SnapToGrid.html",
+    "https://postgis.net/docs/ST_AsGeoJSON.html",
+    "https://postgis.net/docs/ST_GeomFromGeoJSON.html",
+    "https://postgis.net/docs/ST_Buffer.html",
+    "https://postgis.net/docs/ST_Union.html",
+    "https://postgis.net/docs/ST_Intersection.html",
+    "https://postgis.net/docs/ST_IsValid.html",
+
+    # ── GDAL programs ────────────────────────────────────
+    "https://gdal.org/programs/ogrinfo.html",
+    "https://gdal.org/programs/ogr2ogr.html",
+    "https://gdal.org/programs/gdalwarp.html",
+    "https://gdal.org/programs/gdal_translate.html",
+
+    # ── GeoServer CQL / filtering ───────────────────────
+    "https://docs.geoserver.org/stable/en/user/tutorials/cql/cql_tutorial.html",
+
+    # ── Java geospatial ──────────────────────────────────
+    "https://docs.geotools.org/latest/userguide/",
+    "https://docs.geotools.org/latest/userguide/library/referencing/index.html",
+    "https://docs.geotools.org/latest/userguide/library/data/index.html",
+    "https://locationtech.github.io/jts/jts-faq.html",
+
+    # ──JavaScript testing ───────────────────────────────
+    "https://jestjs.io/docs/getting-started",
+    "https://jestjs.io/docs/expect",
+    "https://playwright.dev/docs/intro",
+    "https://playwright.dev/docs/api/class-page",
+    "https://playwright.dev/docs/locators",
+    "https://docs.cypress.io/guides/overview/why-cypress",
+    "https://docs.cypress.io/api/commands/get",
+
+    # ── Selenium ─────────────────────────────────────────
+    "https://www.selenium.dev/documentation/webdriver/",
+    "https://www.selenium.dev/documentation/webdriver/elements/",
+    "https://www.selenium.dev/documentation/webdriver/interactions/",
+    "https://www.selenium.dev/documentation/test_practices/",
+
+    # ── Capybara / Ruby ──────────────────────────────────
+    "https://rubydoc.info/github/teamcapybara/capybara/master",
+    "https://www.rubydoc.info/gems/capybara",
+
+    # ── OpenLayers examples ──────────────────────────────
+    "https://openlayers.org/en/latest/examples/",
+
+    # ── Leaflet examples ─────────────────────────────────
+    "https://leafletjs.com/examples/geojson/",
+
+    # ── GeoPandas additional ─────────────────────────────
+    "https://geopandas.org/en/stable/docs/user_guide/projections.html",
+    "https://geopandas.org/en/stable/docs/user_guide/io.html",
+
+    # ── Proj additional ──────────────────────────────────
+    "https://proj.org/en/stable/operations/projections/index.html",
+
+    # ── QGIS ─────────────────────────────────────────────
+    "https://docs.qgis.org/3.34/en/docs/user_manual/index.html",
+    "https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/vector_properties.html",
+    "https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/expression_field_calculator.html",
+    "https://docs.qgis.org/3.34/en/docs/user_manual/working_with_projections/working_with_projections.html",
+    "https://docs.qgis.org/3.34/en/docs/user_manual/processing_algs/qgis/index.html",
+    "https://docs.qgis.org/3.34/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html",
+    "https://docs.qgis.org/3.34/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html",
+    "https://docs.qgis.org/3.34/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html",
+
+    # QGIS PyQGIS (Python scripting)
+    "https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/index.html",
+    "https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/loadlayer.html",
+    "https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/vector.html",
+    "https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/crs.html",
+    "https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/geometry.html",
+    "https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/expressions.html",
+
+    # QGIS Server (WMS/WFS serving)
+    "https://docs.qgis.org/3.34/en/docs/server_manual/index.html",
+    "https://docs.qgis.org/3.34/en/docs/server_manual/services/wms.html",
+    "https://docs.qgis.org/3.34/en/docs/server_manual/services/wfs.html",
+
+    # QGIS gentle introduction (good for non-technical context)
+    "https://docs.qgis.org/3.34/en/docs/gentle_gis_introduction/index.html",
+    "https://docs.qgis.org/3.34/en/docs/gentle_gis_introduction/coordinate_reference_systems.html",
+    "https://docs.qgis.org/3.34/en/docs/gentle_gis_introduction/vector_data.html",
+    "https://docs.qgis.org/3.34/en/docs/gentle_gis_introduction/raster_data.html",
 ]
