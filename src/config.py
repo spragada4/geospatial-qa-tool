@@ -31,6 +31,28 @@ GEOSPATIAL_URLS = [
     "https://www.rfc-editor.org/rfc/rfc7946",
     "https://www.geopackage.org/",
 
+    #PostGres deep docs
+    "https://www.postgresql.org/docs/current/queries.html",
+    "https://www.postgresql.org/docs/current/queries-overview.html",
+    "https://www.postgresql.org/docs/current/queries-table-expressions.html",
+    "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-FROM",
+    "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-WHERE",
+    "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUP",
+    "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-GROUPING-SETS",
+    "https://www.postgresql.org/docs/current/queries-table-expressions.html#QUERIES-WINDOW",
+    "https://www.postgresql.org/docs/current/queries-select-lists.html",
+    "https://www.postgresql.org/docs/current/queries-select-lists.html#QUERIES-COLUMN-LABELS",
+    "https://www.postgresql.org/docs/current/queries-select-lists.html#QUERIES-DISTINCT",
+    "https://www.postgresql.org/docs/current/queries-union.html",
+    "https://www.postgresql.org/docs/current/queries-order.html",
+    "https://www.postgresql.org/docs/current/queries-limit.html",
+    "https://www.postgresql.org/docs/current/queries-values.html",
+    "https://www.postgresql.org/docs/current/queries-with.html",
+    "https://www.postgresql.org/docs/current/queries-with.html#QUERIES-WITH-SELECT",
+    "https://www.postgresql.org/docs/current/queries-with.html#QUERIES-WITH-RECURSIVE",
+    "https://www.postgresql.org/docs/current/queries-with.html#QUERIES-WITH-CTE-MATERIALIZATION",
+    "https://www.postgresql.org/docs/current/queries-with.html#QUERIES-WITH-MODIFYING",
+
     # PostGIS deep docs
     "https://postgis.net/docs/using_raster_dataman.html",
     "https://postgis.net/docs/using_postgis_query.html",
