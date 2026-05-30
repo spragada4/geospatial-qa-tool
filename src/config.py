@@ -148,31 +148,31 @@ GEOSPATIAL_URLS = [
     "https://proj.org/en/stable/operations/projections/index.html",
 
     # ── QGIS ─────────────────────────────────────────────
-    "https://docs.qgis.org/3.34/en/docs/user_manual/index.html",
-    "https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/vector_properties.html",
-    "https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/expression_field_calculator.html",
-    "https://docs.qgis.org/3.34/en/docs/user_manual/working_with_projections/working_with_projections.html",
-    "https://docs.qgis.org/3.34/en/docs/user_manual/processing_algs/qgis/index.html",
-    "https://docs.qgis.org/3.34/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html",
-    "https://docs.qgis.org/3.34/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html",
-    "https://docs.qgis.org/3.34/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html",
+    "https://docs.qgis.org/3.44/en/docs/user_manual/index.html",
+    "https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/vector_properties.html",
+    "https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/expression_field_calculator.html",
+    "https://docs.qgis.org/3.44/en/docs/user_manual/working_with_projections/working_with_projections.html",
+    "https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/index.html",
+    "https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html",
+    "https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoranalysis.html",
+    "https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html",
 
     # QGIS PyQGIS (Python scripting)
-    "https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/index.html",
-    "https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/loadlayer.html",
-    "https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/vector.html",
-    "https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/crs.html",
-    "https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/geometry.html",
-    "https://docs.qgis.org/3.34/en/docs/pyqgis_developer_cookbook/expressions.html",
+    "https://docs.qgis.org/3.44/en/docs/pyqgis_developer_cookbook/index.html",
+    "https://docs.qgis.org/3.44/en/docs/pyqgis_developer_cookbook/loadlayer.html",
+    "https://docs.qgis.org/3.44/en/docs/pyqgis_developer_cookbook/vector.html",
+    "https://docs.qgis.org/3.44/en/docs/pyqgis_developer_cookbook/crs.html",
+    "https://docs.qgis.org/3.44/en/docs/pyqgis_developer_cookbook/geometry.html",
+    "https://docs.qgis.org/3.44/en/docs/pyqgis_developer_cookbook/expressions.html",
 
     # QGIS Server (WMS/WFS serving)
-    "https://docs.qgis.org/3.34/en/docs/server_manual/index.html",
-    "https://docs.qgis.org/3.34/en/docs/server_manual/services/wms.html",
-    "https://docs.qgis.org/3.34/en/docs/server_manual/services/wfs.html",
+    "https://docs.qgis.org/3.44/en/docs/server_manual/index.html",
+    "https://docs.qgis.org/3.44/en/docs/server_manual/services/wms.html",
+    "https://docs.qgis.org/3.44/en/docs/server_manual/services/wfs.html",
 
     # QGIS gentle introduction (good for non-technical context)
-    "https://docs.qgis.org/3.34/en/docs/gentle_gis_introduction/index.html",
-    "https://docs.qgis.org/3.34/en/docs/gentle_gis_introduction/coordinate_reference_systems.html",
-    "https://docs.qgis.org/3.34/en/docs/gentle_gis_introduction/vector_data.html",
-    "https://docs.qgis.org/3.34/en/docs/gentle_gis_introduction/raster_data.html",
+    "https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/index.html",
+    "https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/coordinate_reference_systems.html",
+    "https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/vector_data.html",
+    "https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/raster_data.html",
 ]
