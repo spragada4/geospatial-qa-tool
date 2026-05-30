@@ -18,18 +18,42 @@ from config import (
 )
 
 def load_web_docs(urls: list) -> list:
-    """Load documents from URLs."""
     print(f"\n📥 Loading {len(urls)} URLs...")
     all_docs = []
+    failed_urls = []
+
     for url in urls:
         try:
             print(f"  → {url}")
             loader = WebBaseLoader(url)
+            loader.requests_kwargs = {
+                "headers": {
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                },
+                "timeout": 15
+            }
             docs = loader.load()
+
+            # Check if content is meaningful
+            content = docs[0].page_content.strip() if docs else ""
+            if len(content) < 200:
+                print(f"     ⚠️  Too little content ({len(content)} chars) — site may be blocking")
+                failed_urls.append(url)
+                continue
+
             all_docs.extend(docs)
-            print(f"     ✓ Loaded {len(docs)} document(s)")
+            print(f"     ✓ Loaded {len(docs)} doc(s), {len(content)} chars")
+
         except Exception as e:
             print(f"     ✗ Failed: {e}")
+            failed_urls.append(url)
+
+    if failed_urls:
+        print(f"\n⚠️  {len(failed_urls)} URLs failed or returned too little content:")
+        for url in failed_urls:
+            print(f"   - {url}")
+        print("   → Download these manually as PDFs and place in data/raw/\n")
+
     return all_docs
 
 def load_pdf_docs(pdf_folder: str) -> list:

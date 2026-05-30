@@ -1,11 +1,12 @@
 langchain
+langchain-core
 langchain-community
 langchain-ollama
+langchain-text-splitters
 chromadb
 streamlit
 beautifulsoup4
 requests
 lxml
-unstructured
 pypdf
-sentence-transformers
+python-dotenv
