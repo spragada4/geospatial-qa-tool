@@ -1,22 +1,11 @@
-# Virtual environment
 venv/
-
-# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
-
-# Data & vector store
-data/
-
-# Environment variables
 .env
-
-# Mac
+data/
 .DS_Store
-
-# IDE
 .vscode/
 .idea/
